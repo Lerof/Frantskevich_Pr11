@@ -19,7 +19,7 @@ namespace Frantskevich_Pr11
         void SetData()
         {
             var rnd = new Random();
-            var data = new[] { "Группа: ПКС-31", "ФИО: Алпатов Илья Юрьевич", "Программист без стажем", "Безработный", "В активном поиске", $"Сегодня:{DateTime.Now}" };
+            var data = new[] { "Группа: ПКС-31", "ФИО: Францкевич Леонид Романович", "Программист с стажем", "Работаю", $"Сегодня:{DateTime.Now}" };
             foreach (var text in data)
             {
                 var tempLabel = new Label() { HorizontalTextAlignment = TextAlignment.Center, TextColor = Color.FromRgb(rnd.Next(0, 255), rnd.Next(0, 255), rnd.Next(0, 255)), Text = text };
